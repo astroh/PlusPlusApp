@@ -6,8 +6,8 @@ provides-nominal:
 provides-member:
 - ["C11PlusPlusApp15ViewController1", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
 depends-top-level:
 - "ViewController1"
 - "UIViewController"

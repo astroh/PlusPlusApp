@@ -6,47 +6,40 @@ provides-nominal:
 provides-member:
 - ["C11PlusPlusApp15ViewController2", ""]
 provides-dynamic-lookup:
-- "previewLayer"
-- "didReceiveMemoryWarning"
-- "viewWillAppear"
 - "cameraView"
-- "didPressTakePhoto"
-- "viewDidLoad"
-- "didTakePhoto"
 - "viewDidAppear"
-- "stillImageOutput"
-- "didPressTakeAnother"
-- "tempImageView"
-- "touchesBegan"
+- "previewLayer"
+- "didPressTakePhoto"
 - "captureSession"
+- "didReceiveMemoryWarning"
+- "tempImageView"
+- "viewDidLoad"
+- "stillImageOutput"
+- "viewWillAppear"
 depends-top-level:
-- "AVCaptureVideoPreviewLayer"
-- !private "CGDataProviderCreateWithCFData"
 - !private "AVMediaTypeVideo"
-- !private "AVCaptureDevice"
-- "UIViewController"
-- "UITouch"
 - "BooleanLiteralType"
-- "UIEvent"
-- "UIImageView"
-- "UINavigationControllerDelegate"
-- !private "AVVideoCodecJPEG"
-- "Bool"
-- "UIImagePickerControllerDelegate"
-- "AVCaptureStillImageOutput"
-- !private "AVCaptureVideoOrientation"
-- "Set"
-- !private "AVCaptureDeviceInput"
-- !private "AVCaptureSessionPreset1920x1080"
-- !private "CGImageCreateWithJPEGDataProvider"
+- !private "AVLayerVideoGravityResizeAspect"
 - !private "UIImage"
-- "AVCaptureSession"
+- "UIView"
+- "AVCaptureVideoPreviewLayer"
+- "Bool"
+- !private "AVCaptureDevice"
+- !private "CGDataProviderCreateWithCFData"
 - !private "UIImageOrientation"
 - "ViewController2"
+- !private "AVCaptureSessionPreset1920x1080"
+- "AVCaptureSession"
+- !private "AVCaptureVideoOrientation"
 - !private "!="
-- "UIView"
-- !private "AVLayerVideoGravityResizeAspect"
-- !private "=="
+- "UIViewController"
+- "UIImageView"
+- "AVCaptureStillImageOutput"
+- "UIImagePickerControllerDelegate"
+- "UINavigationControllerDelegate"
+- !private "AVCaptureDeviceInput"
+- !private "AVVideoCodecJPEG"
+- !private "CGImageCreateWithJPEGDataProvider"
 depends-member:
 - !private ["CSo19AVCaptureConnection", "videoOrientation"]
 - !private ["CSo15AVCaptureDevice", "defaultDeviceWithMediaType"]
@@ -84,7 +77,6 @@ depends-member:
 - !private ["PSs9AnyObject", "AVLayerVideoGravityResizeAspect"]
 - !private ["PSs9AnyObject", "AVMediaTypeVideo"]
 - !private ["PSs9AnyObject", "AVVideoCodecJPEG"]
-- ["PSs9AnyObject", "Bool"]
 - !private ["PSs9AnyObject", "CGDataProviderCreateWithCFData"]
 - !private ["PSs9AnyObject", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSs9AnyObject", "UIImage"]
@@ -101,10 +93,8 @@ depends-member:
 - !private ["PSs9AnyObject", "connection"]
 - !private ["PSs9AnyObject", "connectionWithMediaType"]
 - !private ["PSs9AnyObject", "defaultDeviceWithMediaType"]
-- ["PSs9AnyObject", "didPressTakeAnother"]
 - ["PSs9AnyObject", "didPressTakePhoto"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
-- ["PSs9AnyObject", "didTakePhoto"]
 - !private ["PSs9AnyObject", "frame"]
 - !private ["PSs9AnyObject", "hidden"]
 - !private ["PSs9AnyObject", "image"]
@@ -122,7 +112,6 @@ depends-member:
 - !private ["PSs9AnyObject", "startRunning"]
 - ["PSs9AnyObject", "stillImageOutput"]
 - ["PSs9AnyObject", "tempImageView"]
-- ["PSs9AnyObject", "touchesBegan"]
 - !private ["PSs9AnyObject", "videoGravity"]
 - !private ["PSs9AnyObject", "videoOrientation"]
 - ["PSs9AnyObject", "viewDidAppear"]
@@ -132,11 +121,8 @@ depends-member:
 - !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
 - !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- ["Sb", "init"]
 - !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- ["PSs25BooleanLiteralConvertible", "init"]
 - !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
-- ["PSs11BooleanType", "init"]
 - !private ["CSo7CALayer", "addSublayer"]
 - !private ["CSo7CALayer", "connection"]
 - !private ["CSo7CALayer", "frame"]
@@ -160,7 +146,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "AVLayerVideoGravityResizeAspect"]
 - !private ["PSs11CVarArgType", "AVMediaTypeVideo"]
 - !private ["PSs11CVarArgType", "AVVideoCodecJPEG"]
-- ["PSs11CVarArgType", "Bool"]
 - !private ["PSs11CVarArgType", "CGDataProviderCreateWithCFData"]
 - !private ["PSs11CVarArgType", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
@@ -178,10 +163,8 @@ depends-member:
 - !private ["PSs11CVarArgType", "connection"]
 - !private ["PSs11CVarArgType", "connectionWithMediaType"]
 - !private ["PSs11CVarArgType", "defaultDeviceWithMediaType"]
-- ["PSs11CVarArgType", "didPressTakeAnother"]
 - ["PSs11CVarArgType", "didPressTakePhoto"]
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
-- ["PSs11CVarArgType", "didTakePhoto"]
 - !private ["PSs11CVarArgType", "frame"]
 - !private ["PSs11CVarArgType", "hidden"]
 - !private ["PSs11CVarArgType", "image"]
@@ -199,7 +182,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "startRunning"]
 - ["PSs11CVarArgType", "stillImageOutput"]
 - ["PSs11CVarArgType", "tempImageView"]
-- ["PSs11CVarArgType", "touchesBegan"]
 - !private ["PSs11CVarArgType", "videoGravity"]
 - !private ["PSs11CVarArgType", "videoOrientation"]
 - ["PSs11CVarArgType", "viewDidAppear"]
@@ -230,7 +212,6 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "AVLayerVideoGravityResizeAspect"]
 - !private ["PSs23CustomStringConvertible", "AVMediaTypeVideo"]
 - !private ["PSs23CustomStringConvertible", "AVVideoCodecJPEG"]
-- ["PSs23CustomStringConvertible", "Bool"]
 - !private ["PSs23CustomStringConvertible", "CGDataProviderCreateWithCFData"]
 - !private ["PSs23CustomStringConvertible", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSs23CustomStringConvertible", "Generator"]
@@ -253,10 +234,8 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "connection"]
 - !private ["PSs23CustomStringConvertible", "connectionWithMediaType"]
 - !private ["PSs23CustomStringConvertible", "defaultDeviceWithMediaType"]
-- ["PSs23CustomStringConvertible", "didPressTakeAnother"]
 - ["PSs23CustomStringConvertible", "didPressTakePhoto"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
-- ["PSs23CustomStringConvertible", "didTakePhoto"]
 - !private ["PSs23CustomStringConvertible", "frame"]
 - !private ["PSs23CustomStringConvertible", "hidden"]
 - !private ["PSs23CustomStringConvertible", "image"]
@@ -275,7 +254,6 @@ depends-member:
 - ["PSs23CustomStringConvertible", "stillImageOutput"]
 - !private ["PSs23CustomStringConvertible", "subscript"]
 - ["PSs23CustomStringConvertible", "tempImageView"]
-- ["PSs23CustomStringConvertible", "touchesBegan"]
 - !private ["PSs23CustomStringConvertible", "videoGravity"]
 - !private ["PSs23CustomStringConvertible", "videoOrientation"]
 - ["PSs23CustomStringConvertible", "viewDidAppear"]
@@ -305,7 +283,6 @@ depends-member:
 - !private ["PSs9Equatable", "AVLayerVideoGravityResizeAspect"]
 - !private ["PSs9Equatable", "AVMediaTypeVideo"]
 - !private ["PSs9Equatable", "AVVideoCodecJPEG"]
-- ["PSs9Equatable", "Bool"]
 - !private ["PSs9Equatable", "CGDataProviderCreateWithCFData"]
 - !private ["PSs9Equatable", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSs9Equatable", "Distance"]
@@ -329,10 +306,8 @@ depends-member:
 - !private ["PSs9Equatable", "connection"]
 - !private ["PSs9Equatable", "connectionWithMediaType"]
 - !private ["PSs9Equatable", "defaultDeviceWithMediaType"]
-- ["PSs9Equatable", "didPressTakeAnother"]
 - ["PSs9Equatable", "didPressTakePhoto"]
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
-- ["PSs9Equatable", "didTakePhoto"]
 - !private ["PSs9Equatable", "frame"]
 - !private ["PSs9Equatable", "hidden"]
 - !private ["PSs9Equatable", "image"]
@@ -350,7 +325,6 @@ depends-member:
 - !private ["PSs9Equatable", "startRunning"]
 - ["PSs9Equatable", "stillImageOutput"]
 - ["PSs9Equatable", "tempImageView"]
-- ["PSs9Equatable", "touchesBegan"]
 - !private ["PSs9Equatable", "videoGravity"]
 - !private ["PSs9Equatable", "videoOrientation"]
 - ["PSs9Equatable", "viewDidAppear"]
@@ -371,7 +345,6 @@ depends-member:
 - !private ["PSs8Hashable", "AVLayerVideoGravityResizeAspect"]
 - !private ["PSs8Hashable", "AVMediaTypeVideo"]
 - !private ["PSs8Hashable", "AVVideoCodecJPEG"]
-- ["PSs8Hashable", "Bool"]
 - !private ["PSs8Hashable", "CGDataProviderCreateWithCFData"]
 - !private ["PSs8Hashable", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
@@ -393,10 +366,8 @@ depends-member:
 - !private ["PSs8Hashable", "connection"]
 - !private ["PSs8Hashable", "connectionWithMediaType"]
 - !private ["PSs8Hashable", "defaultDeviceWithMediaType"]
-- ["PSs8Hashable", "didPressTakeAnother"]
 - ["PSs8Hashable", "didPressTakePhoto"]
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
-- ["PSs8Hashable", "didTakePhoto"]
 - !private ["PSs8Hashable", "frame"]
 - !private ["PSs8Hashable", "hidden"]
 - !private ["PSs8Hashable", "image"]
@@ -414,7 +385,6 @@ depends-member:
 - !private ["PSs8Hashable", "startRunning"]
 - ["PSs8Hashable", "stillImageOutput"]
 - ["PSs8Hashable", "tempImageView"]
-- ["PSs8Hashable", "touchesBegan"]
 - !private ["PSs8Hashable", "videoGravity"]
 - !private ["PSs8Hashable", "videoOrientation"]
 - ["PSs8Hashable", "viewDidAppear"]
@@ -443,7 +413,6 @@ depends-member:
 - !private ["PSo8NSCoding", "AVLayerVideoGravityResizeAspect"]
 - !private ["PSo8NSCoding", "AVMediaTypeVideo"]
 - !private ["PSo8NSCoding", "AVVideoCodecJPEG"]
-- ["PSo8NSCoding", "Bool"]
 - !private ["PSo8NSCoding", "CGDataProviderCreateWithCFData"]
 - !private ["PSo8NSCoding", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSo8NSCoding", "UIImage"]
@@ -453,10 +422,8 @@ depends-member:
 - ["PSo8NSCoding", "cameraView"]
 - ["PSo8NSCoding", "captureSession"]
 - !private ["PSo8NSCoding", "connection"]
-- ["PSo8NSCoding", "didPressTakeAnother"]
 - ["PSo8NSCoding", "didPressTakePhoto"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
-- ["PSo8NSCoding", "didTakePhoto"]
 - !private ["PSo8NSCoding", "frame"]
 - !private ["PSo8NSCoding", "hidden"]
 - !private ["PSo8NSCoding", "image"]
@@ -470,7 +437,6 @@ depends-member:
 - ["PSo8NSCoding", "previewLayer"]
 - ["PSo8NSCoding", "stillImageOutput"]
 - ["PSo8NSCoding", "tempImageView"]
-- ["PSo8NSCoding", "touchesBegan"]
 - !private ["PSo8NSCoding", "videoGravity"]
 - ["PSo8NSCoding", "viewDidAppear"]
 - ["PSo8NSCoding", "viewDidLoad"]
@@ -486,17 +452,14 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "AVLayerVideoGravityResizeAspect"]
 - !private ["PSo26NSExtensionRequestHandling", "AVMediaTypeVideo"]
 - !private ["PSo26NSExtensionRequestHandling", "AVVideoCodecJPEG"]
-- ["PSo26NSExtensionRequestHandling", "Bool"]
 - !private ["PSo26NSExtensionRequestHandling", "CGDataProviderCreateWithCFData"]
 - !private ["PSo26NSExtensionRequestHandling", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSo26NSExtensionRequestHandling", "UIImage"]
 - !private ["PSo26NSExtensionRequestHandling", "UIImageOrientation"]
 - ["PSo26NSExtensionRequestHandling", "cameraView"]
 - ["PSo26NSExtensionRequestHandling", "captureSession"]
-- ["PSo26NSExtensionRequestHandling", "didPressTakeAnother"]
 - ["PSo26NSExtensionRequestHandling", "didPressTakePhoto"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
-- ["PSo26NSExtensionRequestHandling", "didTakePhoto"]
 - ["PSo26NSExtensionRequestHandling", "imagePickerController"]
 - ["PSo26NSExtensionRequestHandling", "imagePickerControllerDidCancel"]
 - ["PSo26NSExtensionRequestHandling", "init"]
@@ -506,7 +469,6 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "previewLayer"]
 - ["PSo26NSExtensionRequestHandling", "stillImageOutput"]
 - ["PSo26NSExtensionRequestHandling", "tempImageView"]
-- ["PSo26NSExtensionRequestHandling", "touchesBegan"]
 - ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
@@ -524,12 +486,9 @@ depends-member:
 - ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "CGDataProviderCreateWithCFData"]
 - !private ["CSo8NSObject", "CGImageCreateWithJPEGDataProvider"]
-- ["CSo8NSObject", "Set"]
-- ["CSo8NSObject", "UIEvent"]
 - !private ["CSo8NSObject", "UIImage"]
 - !private ["CSo8NSObject", "UIImageOrientation"]
 - ["CSo8NSObject", "UIImageView"]
-- ["CSo8NSObject", "UITouch"]
 - ["CSo8NSObject", "UIView"]
 - !private ["CSo8NSObject", "addInput"]
 - !private ["CSo8NSObject", "addOutput"]
@@ -543,10 +502,8 @@ depends-member:
 - !private ["CSo8NSObject", "connection"]
 - !private ["CSo8NSObject", "connectionWithMediaType"]
 - !private ["CSo8NSObject", "defaultDeviceWithMediaType"]
-- ["CSo8NSObject", "didPressTakeAnother"]
 - ["CSo8NSObject", "didPressTakePhoto"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
-- ["CSo8NSObject", "didTakePhoto"]
 - !private ["CSo8NSObject", "frame"]
 - !private ["CSo8NSObject", "hidden"]
 - !private ["CSo8NSObject", "image"]
@@ -564,7 +521,6 @@ depends-member:
 - !private ["CSo8NSObject", "startRunning"]
 - ["CSo8NSObject", "stillImageOutput"]
 - ["CSo8NSObject", "tempImageView"]
-- ["CSo8NSObject", "touchesBegan"]
 - !private ["CSo8NSObject", "videoGravity"]
 - !private ["CSo8NSObject", "videoOrientation"]
 - ["CSo8NSObject", "viewDidAppear"]
@@ -580,7 +536,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "AVLayerVideoGravityResizeAspect"]
 - !private ["PSo16NSObjectProtocol", "AVMediaTypeVideo"]
 - !private ["PSo16NSObjectProtocol", "AVVideoCodecJPEG"]
-- ["PSo16NSObjectProtocol", "Bool"]
 - !private ["PSo16NSObjectProtocol", "CGDataProviderCreateWithCFData"]
 - !private ["PSo16NSObjectProtocol", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSo16NSObjectProtocol", "UIImage"]
@@ -597,10 +552,8 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "connection"]
 - !private ["PSo16NSObjectProtocol", "connectionWithMediaType"]
 - !private ["PSo16NSObjectProtocol", "defaultDeviceWithMediaType"]
-- ["PSo16NSObjectProtocol", "didPressTakeAnother"]
 - ["PSo16NSObjectProtocol", "didPressTakePhoto"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
-- ["PSo16NSObjectProtocol", "didTakePhoto"]
 - !private ["PSo16NSObjectProtocol", "frame"]
 - !private ["PSo16NSObjectProtocol", "hidden"]
 - !private ["PSo16NSObjectProtocol", "image"]
@@ -618,7 +571,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "startRunning"]
 - ["PSo16NSObjectProtocol", "stillImageOutput"]
 - ["PSo16NSObjectProtocol", "tempImageView"]
-- ["PSo16NSObjectProtocol", "touchesBegan"]
 - !private ["PSo16NSObjectProtocol", "videoGravity"]
 - !private ["PSo16NSObjectProtocol", "videoOrientation"]
 - ["PSo16NSObjectProtocol", "viewDidAppear"]
@@ -665,7 +617,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "AVLayerVideoGravityResizeAspect"]
 - !private ["PSo21UIAppearanceContainer", "AVMediaTypeVideo"]
 - !private ["PSo21UIAppearanceContainer", "AVVideoCodecJPEG"]
-- ["PSo21UIAppearanceContainer", "Bool"]
 - !private ["PSo21UIAppearanceContainer", "CGDataProviderCreateWithCFData"]
 - !private ["PSo21UIAppearanceContainer", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSo21UIAppearanceContainer", "UIImage"]
@@ -673,10 +624,8 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "bounds"]
 - ["PSo21UIAppearanceContainer", "cameraView"]
 - ["PSo21UIAppearanceContainer", "captureSession"]
-- ["PSo21UIAppearanceContainer", "didPressTakeAnother"]
 - ["PSo21UIAppearanceContainer", "didPressTakePhoto"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
-- ["PSo21UIAppearanceContainer", "didTakePhoto"]
 - !private ["PSo21UIAppearanceContainer", "hidden"]
 - !private ["PSo21UIAppearanceContainer", "image"]
 - ["PSo21UIAppearanceContainer", "imagePickerController"]
@@ -689,7 +638,6 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "previewLayer"]
 - ["PSo21UIAppearanceContainer", "stillImageOutput"]
 - ["PSo21UIAppearanceContainer", "tempImageView"]
-- ["PSo21UIAppearanceContainer", "touchesBegan"]
 - ["PSo21UIAppearanceContainer", "viewDidAppear"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", "viewWillAppear"]
@@ -704,17 +652,14 @@ depends-member:
 - !private ["PSo18UIContentContainer", "AVLayerVideoGravityResizeAspect"]
 - !private ["PSo18UIContentContainer", "AVMediaTypeVideo"]
 - !private ["PSo18UIContentContainer", "AVVideoCodecJPEG"]
-- ["PSo18UIContentContainer", "Bool"]
 - !private ["PSo18UIContentContainer", "CGDataProviderCreateWithCFData"]
 - !private ["PSo18UIContentContainer", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSo18UIContentContainer", "UIImage"]
 - !private ["PSo18UIContentContainer", "UIImageOrientation"]
 - ["PSo18UIContentContainer", "cameraView"]
 - ["PSo18UIContentContainer", "captureSession"]
-- ["PSo18UIContentContainer", "didPressTakeAnother"]
 - ["PSo18UIContentContainer", "didPressTakePhoto"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
-- ["PSo18UIContentContainer", "didTakePhoto"]
 - ["PSo18UIContentContainer", "imagePickerController"]
 - ["PSo18UIContentContainer", "imagePickerControllerDidCancel"]
 - ["PSo18UIContentContainer", "init"]
@@ -724,7 +669,6 @@ depends-member:
 - ["PSo18UIContentContainer", "previewLayer"]
 - ["PSo18UIContentContainer", "stillImageOutput"]
 - ["PSo18UIContentContainer", "tempImageView"]
-- ["PSo18UIContentContainer", "touchesBegan"]
 - ["PSo18UIContentContainer", "viewDidAppear"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", "viewWillAppear"]
@@ -747,7 +691,6 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "AVLayerVideoGravityResizeAspect"]
 - !private ["PSo18UIFocusEnvironment", "AVMediaTypeVideo"]
 - !private ["PSo18UIFocusEnvironment", "AVVideoCodecJPEG"]
-- ["PSo18UIFocusEnvironment", "Bool"]
 - !private ["PSo18UIFocusEnvironment", "CGDataProviderCreateWithCFData"]
 - !private ["PSo18UIFocusEnvironment", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSo18UIFocusEnvironment", "UIImage"]
@@ -755,10 +698,8 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "bounds"]
 - ["PSo18UIFocusEnvironment", "cameraView"]
 - ["PSo18UIFocusEnvironment", "captureSession"]
-- ["PSo18UIFocusEnvironment", "didPressTakeAnother"]
 - ["PSo18UIFocusEnvironment", "didPressTakePhoto"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
-- ["PSo18UIFocusEnvironment", "didTakePhoto"]
 - !private ["PSo18UIFocusEnvironment", "hidden"]
 - !private ["PSo18UIFocusEnvironment", "image"]
 - ["PSo18UIFocusEnvironment", "imagePickerController"]
@@ -771,7 +712,6 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "previewLayer"]
 - ["PSo18UIFocusEnvironment", "stillImageOutput"]
 - ["PSo18UIFocusEnvironment", "tempImageView"]
-- ["PSo18UIFocusEnvironment", "touchesBegan"]
 - ["PSo18UIFocusEnvironment", "viewDidAppear"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", "viewWillAppear"]
@@ -788,16 +728,12 @@ depends-member:
 - !private ["PSo31UIImagePickerControllerDelegate", "AVLayerVideoGravityResizeAspect"]
 - !private ["PSo31UIImagePickerControllerDelegate", "AVMediaTypeVideo"]
 - !private ["PSo31UIImagePickerControllerDelegate", "AVVideoCodecJPEG"]
-- ["PSo31UIImagePickerControllerDelegate", "Bool"]
 - !private ["PSo31UIImagePickerControllerDelegate", "CGDataProviderCreateWithCFData"]
 - !private ["PSo31UIImagePickerControllerDelegate", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSo31UIImagePickerControllerDelegate", "UIImage"]
 - !private ["PSo31UIImagePickerControllerDelegate", "UIImageOrientation"]
 - !private ["PSo31UIImagePickerControllerDelegate", "cameraView"]
 - !private ["PSo31UIImagePickerControllerDelegate", "captureSession"]
-- !private ["PSo31UIImagePickerControllerDelegate", "didPressTakeAnother"]
-- !private ["PSo31UIImagePickerControllerDelegate", "didPressTakePhoto"]
-- !private ["PSo31UIImagePickerControllerDelegate", "didTakePhoto"]
 - ["PSo31UIImagePickerControllerDelegate", "imagePickerController"]
 - ["PSo31UIImagePickerControllerDelegate", "imagePickerControllerDidCancel"]
 - ["PSo31UIImagePickerControllerDelegate", "navigationController"]
@@ -819,16 +755,12 @@ depends-member:
 - !private ["PSo30UINavigationControllerDelegate", "AVLayerVideoGravityResizeAspect"]
 - !private ["PSo30UINavigationControllerDelegate", "AVMediaTypeVideo"]
 - !private ["PSo30UINavigationControllerDelegate", "AVVideoCodecJPEG"]
-- ["PSo30UINavigationControllerDelegate", "Bool"]
 - !private ["PSo30UINavigationControllerDelegate", "CGDataProviderCreateWithCFData"]
 - !private ["PSo30UINavigationControllerDelegate", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSo30UINavigationControllerDelegate", "UIImage"]
 - !private ["PSo30UINavigationControllerDelegate", "UIImageOrientation"]
 - !private ["PSo30UINavigationControllerDelegate", "cameraView"]
 - !private ["PSo30UINavigationControllerDelegate", "captureSession"]
-- !private ["PSo30UINavigationControllerDelegate", "didPressTakeAnother"]
-- !private ["PSo30UINavigationControllerDelegate", "didPressTakePhoto"]
-- !private ["PSo30UINavigationControllerDelegate", "didTakePhoto"]
 - ["PSo30UINavigationControllerDelegate", "imagePickerController"]
 - ["PSo30UINavigationControllerDelegate", "imagePickerControllerDidCancel"]
 - ["PSo30UINavigationControllerDelegate", "navigationController"]
@@ -851,20 +783,15 @@ depends-member:
 - ["CSo11UIResponder", "Bool"]
 - !private ["CSo11UIResponder", "CGDataProviderCreateWithCFData"]
 - !private ["CSo11UIResponder", "CGImageCreateWithJPEGDataProvider"]
-- ["CSo11UIResponder", "Set"]
-- ["CSo11UIResponder", "UIEvent"]
 - !private ["CSo11UIResponder", "UIImage"]
 - !private ["CSo11UIResponder", "UIImageOrientation"]
 - ["CSo11UIResponder", "UIImageView"]
-- ["CSo11UIResponder", "UITouch"]
 - ["CSo11UIResponder", "UIView"]
 - !private ["CSo11UIResponder", "bounds"]
 - ["CSo11UIResponder", "cameraView"]
 - ["CSo11UIResponder", "captureSession"]
-- ["CSo11UIResponder", "didPressTakeAnother"]
 - ["CSo11UIResponder", "didPressTakePhoto"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
-- ["CSo11UIResponder", "didTakePhoto"]
 - !private ["CSo11UIResponder", "hidden"]
 - !private ["CSo11UIResponder", "image"]
 - ["CSo11UIResponder", "imagePickerController"]
@@ -877,7 +804,6 @@ depends-member:
 - ["CSo11UIResponder", "previewLayer"]
 - ["CSo11UIResponder", "stillImageOutput"]
 - ["CSo11UIResponder", "tempImageView"]
-- ["CSo11UIResponder", "touchesBegan"]
 - ["CSo11UIResponder", "viewDidAppear"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - ["CSo11UIResponder", "viewWillAppear"]
@@ -891,17 +817,14 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "AVLayerVideoGravityResizeAspect"]
 - !private ["PSo16UIStateRestoring", "AVMediaTypeVideo"]
 - !private ["PSo16UIStateRestoring", "AVVideoCodecJPEG"]
-- ["PSo16UIStateRestoring", "Bool"]
 - !private ["PSo16UIStateRestoring", "CGDataProviderCreateWithCFData"]
 - !private ["PSo16UIStateRestoring", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSo16UIStateRestoring", "UIImage"]
 - !private ["PSo16UIStateRestoring", "UIImageOrientation"]
 - ["PSo16UIStateRestoring", "cameraView"]
 - ["PSo16UIStateRestoring", "captureSession"]
-- ["PSo16UIStateRestoring", "didPressTakeAnother"]
 - ["PSo16UIStateRestoring", "didPressTakePhoto"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
-- ["PSo16UIStateRestoring", "didTakePhoto"]
 - ["PSo16UIStateRestoring", "imagePickerController"]
 - ["PSo16UIStateRestoring", "imagePickerControllerDidCancel"]
 - ["PSo16UIStateRestoring", "init"]
@@ -911,7 +834,6 @@ depends-member:
 - ["PSo16UIStateRestoring", "previewLayer"]
 - ["PSo16UIStateRestoring", "stillImageOutput"]
 - ["PSo16UIStateRestoring", "tempImageView"]
-- ["PSo16UIStateRestoring", "touchesBegan"]
 - ["PSo16UIStateRestoring", "viewDidAppear"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", "viewWillAppear"]
@@ -926,7 +848,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "AVLayerVideoGravityResizeAspect"]
 - !private ["PSo18UITraitEnvironment", "AVMediaTypeVideo"]
 - !private ["PSo18UITraitEnvironment", "AVVideoCodecJPEG"]
-- ["PSo18UITraitEnvironment", "Bool"]
 - !private ["PSo18UITraitEnvironment", "CGDataProviderCreateWithCFData"]
 - !private ["PSo18UITraitEnvironment", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSo18UITraitEnvironment", "UIImage"]
@@ -934,10 +855,8 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "bounds"]
 - ["PSo18UITraitEnvironment", "cameraView"]
 - ["PSo18UITraitEnvironment", "captureSession"]
-- ["PSo18UITraitEnvironment", "didPressTakeAnother"]
 - ["PSo18UITraitEnvironment", "didPressTakePhoto"]
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
-- ["PSo18UITraitEnvironment", "didTakePhoto"]
 - !private ["PSo18UITraitEnvironment", "hidden"]
 - !private ["PSo18UITraitEnvironment", "image"]
 - ["PSo18UITraitEnvironment", "imagePickerController"]
@@ -950,7 +869,6 @@ depends-member:
 - ["PSo18UITraitEnvironment", "previewLayer"]
 - ["PSo18UITraitEnvironment", "stillImageOutput"]
 - ["PSo18UITraitEnvironment", "tempImageView"]
-- ["PSo18UITraitEnvironment", "touchesBegan"]
 - ["PSo18UITraitEnvironment", "viewDidAppear"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", "viewWillAppear"]
@@ -972,19 +890,14 @@ depends-member:
 - ["CSo16UIViewController", "Bool"]
 - !private ["CSo16UIViewController", "CGDataProviderCreateWithCFData"]
 - !private ["CSo16UIViewController", "CGImageCreateWithJPEGDataProvider"]
-- ["CSo16UIViewController", "Set"]
-- ["CSo16UIViewController", "UIEvent"]
 - !private ["CSo16UIViewController", "UIImage"]
 - !private ["CSo16UIViewController", "UIImageOrientation"]
 - ["CSo16UIViewController", "UIImageView"]
-- ["CSo16UIViewController", "UITouch"]
 - ["CSo16UIViewController", "UIView"]
 - ["CSo16UIViewController", "cameraView"]
 - ["CSo16UIViewController", "captureSession"]
-- ["CSo16UIViewController", "didPressTakeAnother"]
 - ["CSo16UIViewController", "didPressTakePhoto"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
-- ["CSo16UIViewController", "didTakePhoto"]
 - ["CSo16UIViewController", "imagePickerController"]
 - ["CSo16UIViewController", "imagePickerControllerDidCancel"]
 - ["CSo16UIViewController", "init"]
@@ -994,7 +907,6 @@ depends-member:
 - ["CSo16UIViewController", "previewLayer"]
 - ["CSo16UIViewController", "stillImageOutput"]
 - ["CSo16UIViewController", "tempImageView"]
-- ["CSo16UIViewController", "touchesBegan"]
 - ["CSo16UIViewController", "viewDidAppear"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", "viewWillAppear"]
@@ -1012,20 +924,15 @@ depends-member:
 - ["C11PlusPlusApp15ViewController2", "Bool"]
 - !private ["C11PlusPlusApp15ViewController2", "CGDataProviderCreateWithCFData"]
 - !private ["C11PlusPlusApp15ViewController2", "CGImageCreateWithJPEGDataProvider"]
-- ["C11PlusPlusApp15ViewController2", "Set"]
-- ["C11PlusPlusApp15ViewController2", "UIEvent"]
 - !private ["C11PlusPlusApp15ViewController2", "UIImage"]
 - !private ["C11PlusPlusApp15ViewController2", "UIImageOrientation"]
 - ["C11PlusPlusApp15ViewController2", "UIImageView"]
-- ["C11PlusPlusApp15ViewController2", "UITouch"]
 - ["C11PlusPlusApp15ViewController2", "UIView"]
 - ["C11PlusPlusApp15ViewController2", "cameraView"]
 - ["C11PlusPlusApp15ViewController2", "captureSession"]
 - ["C11PlusPlusApp15ViewController2", "deinit"]
-- ["C11PlusPlusApp15ViewController2", "didPressTakeAnother"]
 - ["C11PlusPlusApp15ViewController2", "didPressTakePhoto"]
 - ["C11PlusPlusApp15ViewController2", "didReceiveMemoryWarning"]
-- ["C11PlusPlusApp15ViewController2", "didTakePhoto"]
 - ["C11PlusPlusApp15ViewController2", "imagePickerController"]
 - ["C11PlusPlusApp15ViewController2", "imagePickerControllerDidCancel"]
 - ["C11PlusPlusApp15ViewController2", "init"]
@@ -1035,12 +942,10 @@ depends-member:
 - ["C11PlusPlusApp15ViewController2", "previewLayer"]
 - ["C11PlusPlusApp15ViewController2", "stillImageOutput"]
 - ["C11PlusPlusApp15ViewController2", "tempImageView"]
-- ["C11PlusPlusApp15ViewController2", "touchesBegan"]
 - ["C11PlusPlusApp15ViewController2", "viewDidAppear"]
 - ["C11PlusPlusApp15ViewController2", "viewDidLoad"]
 - ["C11PlusPlusApp15ViewController2", "viewWillAppear"]
 - !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- ["PSs33_BuiltinBooleanLiteralConvertible", "init"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
 - !private ["PSs24_ImageLiteralConvertible", "init"]
 - !private ["PSs14_Incrementable", "Distance"]
@@ -1054,7 +959,6 @@ depends-member:
 - !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
 - !private ["PSs21_ObjectiveCBridgeable", "_Element"]
 - !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- ["PSs21_ObjectiveCBridgeable", "init"]
 - !private ["PSs21_ObjectiveCBridgeable", "subscript"]
 - !private ["VSs26_OptionalNilComparisonType", "deinit"]
 - !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
@@ -1068,7 +972,6 @@ depends-member:
 - !private ["PSs12_Reflectable", "bounds"]
 - !private ["PSs12_Reflectable", "hidden"]
 - !private ["PSs12_Reflectable", "image"]
-- ["PSs12_Reflectable", "init"]
 - !private ["PSs12_Reflectable", "layer"]
 - !private ["PSs12_Reflectable", "subscript"]
 - !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
@@ -1086,9 +989,9 @@ depends-nominal:
 - "PSs9AnyObject"
 - !private "PSs22BidirectionalIndexType"
 - !private "PSs21BitwiseOperationsType"
-- "Sb"
-- "PSs25BooleanLiteralConvertible"
-- "PSs11BooleanType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
 - !private "CSo7CALayer"
 - !private "PSo13CAMediaTiming"
 - !private "OSC22CGColorRenderingIntent"
@@ -1146,13 +1049,13 @@ depends-nominal:
 - !private "CSo6UIView"
 - "CSo16UIViewController"
 - "C11PlusPlusApp15ViewController2"
-- "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
 - !private "PSs33_BuiltinIntegerLiteralConvertible"
 - !private "PSs24_ImageLiteralConvertible"
 - !private "PSs14_Incrementable"
 - !private "PSs22_IntegerArithmeticType"
 - !private "PSs12_IntegerType"
-- "PSs21_ObjectiveCBridgeable"
+- !private "PSs21_ObjectiveCBridgeable"
 - !private "VSs26_OptionalNilComparisonType"
 - !private "PSs22_RandomAccessAmbiguity"
 - "PSs12_Reflectable"
@@ -1171,4 +1074,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
-interface-hash: "66dfd48c9223a564d49536252a7f4abf"
+interface-hash: "1a26d4fc18de06f4c36b549c5efacf51"
