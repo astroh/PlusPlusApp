@@ -1,8 +1,10 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
-options: "a1d79ba8decc79ebe52448fb0787e33e"
-build_time: [508869881, 487165000]
+options: "ca400684a95ea3300fba4a7843c84be3"
+build_time: [508881940, 232886000]
 inputs:
-  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/AppDelegate.swift": [508869303, 0]
+  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/MapViewController.swift": [508878203, 0]
   "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/ViewController1.swift": [508562771, 0]
-  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/ViewController.swift": [508869395, 0]
-  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/ViewController2.swift": [508869311, 0]
+  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/ViewController.swift": [508871291, 0]
+  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/ViewController2.swift": [508870638, 0]
+  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/AppDelegate.swift": [508872386, 0]
+  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/PreviewViewController2.swift": [508881218, 0]

@@ -6,24 +6,27 @@ provides-nominal:
 provides-member:
 - ["C11PlusPlusApp11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillEnterForeground"
-- "window"
-- "applicationDidBecomeActive"
 - "application"
 - "applicationWillTerminate"
+- "applicationWillEnterForeground"
+- "applicationDidBecomeActive"
 - "applicationDidEnterBackground"
 - "applicationWillResignActive"
+- "window"
 depends-top-level:
-- "UIWindow"
-- "UIApplication"
-- "Bool"
-- !private "BooleanLiteralType"
-- "UIResponder"
+- "AnyObject"
 - "AppDelegate"
 - "NSObject"
+- "UIWindow"
+- !private "GMSServices"
+- !private "StringLiteralType"
+- "UIApplication"
+- "UIResponder"
 - "UIApplicationDelegate"
-- "AnyObject"
+- !private "BooleanLiteralType"
+- "Bool"
 depends-member:
+- !private ["PSs9AnyObject", "GMSServices"]
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]
 - ["PSs9AnyObject", "applicationDidEnterBackground"]
@@ -37,10 +40,12 @@ depends-member:
 - ["PSs9AnyObject", "applicationWillResignActive"]
 - ["PSs9AnyObject", "applicationWillTerminate"]
 - ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "provideAPIKey"]
 - ["PSs9AnyObject", "window"]
 - ["PSs9AnyObject", ""]
 - ["C11PlusPlusApp11AppDelegate", "AnyObject"]
 - ["C11PlusPlusApp11AppDelegate", "Bool"]
+- !private ["C11PlusPlusApp11AppDelegate", "GMSServices"]
 - ["C11PlusPlusApp11AppDelegate", "NSObject"]
 - ["C11PlusPlusApp11AppDelegate", "UIApplication"]
 - ["C11PlusPlusApp11AppDelegate", "UIWindow"]
@@ -59,6 +64,7 @@ depends-member:
 - ["C11PlusPlusApp11AppDelegate", "deinit"]
 - ["C11PlusPlusApp11AppDelegate", "init"]
 - ["C11PlusPlusApp11AppDelegate", "window"]
+- !private ["PSs11CVarArgType", "GMSServices"]
 - ["PSs11CVarArgType", "application"]
 - ["PSs11CVarArgType", "applicationDidBecomeActive"]
 - ["PSs11CVarArgType", "applicationDidEnterBackground"]
@@ -72,8 +78,10 @@ depends-member:
 - ["PSs11CVarArgType", "applicationWillResignActive"]
 - ["PSs11CVarArgType", "applicationWillTerminate"]
 - ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "provideAPIKey"]
 - ["PSs11CVarArgType", "window"]
 - ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "GMSServices"]
 - ["PSs23CustomStringConvertible", "application"]
 - ["PSs23CustomStringConvertible", "applicationDidBecomeActive"]
 - ["PSs23CustomStringConvertible", "applicationDidEnterBackground"]
@@ -87,8 +95,10 @@ depends-member:
 - ["PSs23CustomStringConvertible", "applicationWillResignActive"]
 - ["PSs23CustomStringConvertible", "applicationWillTerminate"]
 - ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "provideAPIKey"]
 - ["PSs23CustomStringConvertible", "window"]
 - ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "GMSServices"]
 - ["PSs9Equatable", "application"]
 - ["PSs9Equatable", "applicationDidBecomeActive"]
 - ["PSs9Equatable", "applicationDidEnterBackground"]
@@ -102,8 +112,11 @@ depends-member:
 - ["PSs9Equatable", "applicationWillResignActive"]
 - ["PSs9Equatable", "applicationWillTerminate"]
 - ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "provideAPIKey"]
 - ["PSs9Equatable", "window"]
 - ["PSs9Equatable", ""]
+- !private ["CSo11GMSServices", "provideAPIKey"]
+- !private ["PSs8Hashable", "GMSServices"]
 - ["PSs8Hashable", "application"]
 - ["PSs8Hashable", "applicationDidBecomeActive"]
 - ["PSs8Hashable", "applicationDidEnterBackground"]
@@ -117,10 +130,13 @@ depends-member:
 - ["PSs8Hashable", "applicationWillResignActive"]
 - ["PSs8Hashable", "applicationWillTerminate"]
 - ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "provideAPIKey"]
 - ["PSs8Hashable", "window"]
 - ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "GMSServices"]
 - ["CSo8NSObject", "NSObject"]
 - ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UIWindow"]
@@ -137,7 +153,9 @@ depends-member:
 - ["CSo8NSObject", "applicationWillResignActive"]
 - ["CSo8NSObject", "applicationWillTerminate"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "provideAPIKey"]
 - ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "GMSServices"]
 - ["PSo16NSObjectProtocol", "application"]
 - ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
 - ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
@@ -151,8 +169,10 @@ depends-member:
 - ["PSo16NSObjectProtocol", "applicationWillResignActive"]
 - ["PSo16NSObjectProtocol", "applicationWillTerminate"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "provideAPIKey"]
 - ["PSo16NSObjectProtocol", "window"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo21UIApplicationDelegate", "GMSServices"]
 - ["PSo21UIApplicationDelegate", "application"]
 - ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
 - ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
@@ -169,6 +189,7 @@ depends-member:
 - ["PSo21UIApplicationDelegate", ""]
 - ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "GMSServices"]
 - ["CSo11UIResponder", "NSObject"]
 - ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UIWindow"]
@@ -193,7 +214,9 @@ depends-nominal:
 - "PSs11CVarArgType"
 - "PSs23CustomStringConvertible"
 - "PSs9Equatable"
+- !private "CSo11GMSServices"
 - "PSs8Hashable"
+- !private "SQ"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - "PSo21UIApplicationDelegate"
@@ -211,4 +234,59 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
-interface-hash: "eb6deb7e97b205db2b1f8c4c6c87743c"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSURLTileLayer.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSTileLayer.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSSyncTileLayer.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSServices.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolyline.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolygon.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceTypes.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacePickerConfig.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacePicker.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceLikelihoodList.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceLikelihood.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaView.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaService.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLink.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLayer.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCameraUpdate.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCamera.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanorama.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOrientation.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMutablePath.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarkerLayer.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarker.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView+Animation.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorLevel.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorDisplay.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorBuilding.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGroundOverlay.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPath.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeometryUtils.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeocoder.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOverlay.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCircle.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraUpdate.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraPosition.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteViewController.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteTableDataSource.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSProjection.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCoordinateBounds.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteResultsViewController.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompletePrediction.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteMatchFragment.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteFilter.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSUserAddedPlace.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacesMacros.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlace.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacesClient.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteFetcher.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSUISettings.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCALayer.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapLayer.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAddress.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "5f33eb569ad8bdcf2de0a628cb8e128f"

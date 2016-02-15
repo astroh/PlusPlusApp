@@ -107,9 +107,32 @@ SWIFT_CLASS("_TtC11PlusPlusApp11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIScrollView;
+@class GMSMapView;
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC11PlusPlusApp17MapViewController")
+@interface MapViewController : UIViewController
+@property (nonatomic, strong) IBOutlet GMSMapView * __null_unspecified mapView;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImage;
+@class UIImageView;
+
+SWIFT_CLASS("_TtC11PlusPlusApp22PreviewViewController2")
+@interface PreviewViewController2 : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified imageView;
+@property (nonatomic, strong) UIImage * __null_unspecified image;
+- (nonnull instancetype)initWithImage:(UIImage * __nonnull)image OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
+@end
+
+@class UIScrollView;
 
 SWIFT_CLASS("_TtC11PlusPlusApp14ViewController")
 @interface ViewController : UIViewController
@@ -132,7 +155,6 @@ SWIFT_CLASS("_TtC11PlusPlusApp15ViewController1")
 @class AVCaptureSession;
 @class AVCaptureStillImageOutput;
 @class AVCaptureVideoPreviewLayer;
-@class UIImageView;
 
 SWIFT_CLASS("_TtC11PlusPlusApp15ViewController2")
 @interface ViewController2 : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>

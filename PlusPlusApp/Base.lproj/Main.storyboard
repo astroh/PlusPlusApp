@@ -43,6 +43,7 @@
                             <constraint firstAttribute="trailing" secondItem="W44-VC-SK3" secondAttribute="trailing" constant="20" id="sBC-05-KpZ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="rHz-vw-Wsz"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="scrollView" destination="C8W-WC-eIG" id="o96-bm-SGY"/>
@@ -52,10 +53,10 @@
             </objects>
             <point key="canvasLocation" x="1233.5" y="598.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="WtO-ca-wjg">
             <objects>
-                <viewController id="tEl-e5-EPE" sceneMemberID="viewController">
+                <viewController id="tEl-e5-EPE" customClass="MapViewController" customModule="PlusPlusApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hKj-9h-FWe"/>
                         <viewControllerLayoutGuide type="bottom" id="iWy-04-hgM"/>
@@ -64,30 +65,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wX5-bz-fEU">
-                                <rect key="frame" x="20" y="28" width="64" height="36"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AB6-41-YUH" userLabel="Map View" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsQ-5J-ChW">
+                                <rect key="frame" x="20" y="42" width="75" height="34"/>
                                 <color key="backgroundColor" red="1" green="0.72295105459999998" blue="0.32441377640000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="MRN-4l-ryM" kind="show" id="dbP-hv-6SU"/>
+                                    <segue destination="MRN-4l-ryM" kind="show" id="cd6-eb-6wm"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.93689376120000001" green="0.78209066390000004" blue="0.75567448140000004" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="wX5-bz-fEU" firstAttribute="top" secondItem="hKj-9h-FWe" secondAttribute="bottom" constant="8" id="biV-9d-vgN"/>
-                            <constraint firstItem="wX5-bz-fEU" firstAttribute="leading" secondItem="ir2-cv-L5h" secondAttribute="leading" constant="20" id="k9A-b5-Luu"/>
-                            <constraint firstAttribute="trailing" secondItem="wX5-bz-fEU" secondAttribute="trailing" constant="291" id="tIb-Ao-VsZ"/>
-                            <constraint firstItem="iWy-04-hgM" firstAttribute="top" secondItem="wX5-bz-fEU" secondAttribute="bottom" constant="603" id="zxD-Qa-kmO"/>
-                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="mapView" destination="AB6-41-YUH" id="D1n-5p-85b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2xb-5C-ZWJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1760.5" y="598.5"/>
+            <point key="canvasLocation" x="1760.5" y="619.5"/>
         </scene>
     </scenes>
 </document>
