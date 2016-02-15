@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,18 +17,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="n6U-SQ-uWq">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="n6U-SQ-uWq">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.27058823529411763" green="0.69411764705882351" blue="0.6470588235294118" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="n6U-SQ-uWq" secondAttribute="bottom" id="0P5-R5-kC8"/>
-                            <constraint firstItem="n6U-SQ-uWq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2kL-4N-mjP"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="n6U-SQ-uWq" secondAttribute="trailing" constant="-20" id="KmF-9a-5I5"/>
-                            <constraint firstItem="n6U-SQ-uWq" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="-20" id="L6y-O4-CES"/>
-                            <constraint firstItem="n6U-SQ-uWq" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="i4v-kU-ULg"/>
-                            <constraint firstItem="n6U-SQ-uWq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qK9-El-sJD"/>
+                            <constraint firstItem="n6U-SQ-uWq" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="c0m-19-o0A"/>
+                            <constraint firstAttribute="trailing" secondItem="n6U-SQ-uWq" secondAttribute="trailing" id="mn0-zu-caR"/>
+                            <constraint firstItem="n6U-SQ-uWq" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="rDJ-sA-ayg"/>
+                            <constraint firstItem="n6U-SQ-uWq" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="tcs-ir-rZ0"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -40,6 +37,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="2.jpg" width="1080" height="1920"/>
+        <image name="logo2.jpg" width="1080" height="1920"/>
     </resources>
 </document>

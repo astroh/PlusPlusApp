@@ -4,15 +4,35 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>2.jpg</key>
+		<key>AppIcon29x29@2x.png</key>
 		<data>
-		lM+dlJv0t6Hd2GfST/0LKGB9h7I=
+		/OjQiwlOpBaKtLuU0t3SkUZUxyQ=
+		</data>
+		<key>AppIcon29x29@3x.png</key>
+		<data>
+		vFbOzsB2+GW6Oig7Yunz0wrwy4E=
+		</data>
+		<key>AppIcon40x40@2x.png</key>
+		<data>
+		uUoRs7AT/cxb8ur844lWLB2rgDc=
+		</data>
+		<key>AppIcon40x40@3x.png</key>
+		<data>
+		uMM8eH5lLRXvyabl7EZuKPj59Os=
+		</data>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		uMM8eH5lLRXvyabl7EZuKPj59Os=
+		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		xi/AbQh0y6CBL5QYpgF4hlOtRdM=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1IcJJe73liFxl0rOK4lhzQrkuO8=
+			SaqZRgw08Tw+06ksG234WnwuJy0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -30,7 +50,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RC+42ZGDAltI9ywLnUKcHsRzuyo=
+			zMb+uY1FmOYEUDE0U+0JUnid+bU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -48,7 +68,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Gh9PTcb1Z4eTH9J3CtfOop7jMyk=
+			sniwcjVKxFHrDPckiE8GqbN0UCc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -57,7 +77,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dL27CveXpzS3zUP+PgbPsRPqgz4=
+			PyWRhJd/UR3jsLuwqMbFM1u07Uc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -112,7 +132,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Tg/x9hhF+SjvZj+WF55aWRZfD1k=
+		iGKKlGkmMHe3qZ5t1EQL5iwID+U=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -120,32 +140,56 @@
 		</data>
 		<key>ViewController1.nib</key>
 		<data>
-		UgM8y6MnxZyt6Sp5haGTBS+abF0=
+		fNF8CyMaZVb6IPOaZiLvhlUw7Xw=
 		</data>
 		<key>ViewController2.nib</key>
 		<data>
-		vcV1WFSw7wXyuRAB2QI/VGhvtNM=
+		KBsrVaSamBfwpT4W96sFLNZ4/Xk=
 		</data>
 		<key>ViewController3.nib</key>
 		<data>
-		9WbRvLBbtxL7MPIq1rYbY7TLeNE=
+		GcW7JX9cJKJQcdDUXUhKY5yF81k=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		bnuaVG11iArEHn30Iw546jlWAa4=
+		mgtTWWLDxnTMS3jB6rrMLIP77DQ=
+		</data>
+		<key>logo2.jpg</key>
+		<data>
+		k2kv/BG3A0cMf5bC4+6qpqKWZ+Y=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>2.jpg</key>
+		<key>AppIcon29x29@2x.png</key>
 		<data>
-		lM+dlJv0t6Hd2GfST/0LKGB9h7I=
+		/OjQiwlOpBaKtLuU0t3SkUZUxyQ=
+		</data>
+		<key>AppIcon29x29@3x.png</key>
+		<data>
+		vFbOzsB2+GW6Oig7Yunz0wrwy4E=
+		</data>
+		<key>AppIcon40x40@2x.png</key>
+		<data>
+		uUoRs7AT/cxb8ur844lWLB2rgDc=
+		</data>
+		<key>AppIcon40x40@3x.png</key>
+		<data>
+		uMM8eH5lLRXvyabl7EZuKPj59Os=
+		</data>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		uMM8eH5lLRXvyabl7EZuKPj59Os=
+		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		xi/AbQh0y6CBL5QYpgF4hlOtRdM=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1IcJJe73liFxl0rOK4lhzQrkuO8=
+			SaqZRgw08Tw+06ksG234WnwuJy0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -163,7 +207,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RC+42ZGDAltI9ywLnUKcHsRzuyo=
+			zMb+uY1FmOYEUDE0U+0JUnid+bU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -181,7 +225,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Gh9PTcb1Z4eTH9J3CtfOop7jMyk=
+			sniwcjVKxFHrDPckiE8GqbN0UCc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -190,7 +234,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dL27CveXpzS3zUP+PgbPsRPqgz4=
+			PyWRhJd/UR3jsLuwqMbFM1u07Uc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -245,19 +289,23 @@
 		</data>
 		<key>ViewController1.nib</key>
 		<data>
-		UgM8y6MnxZyt6Sp5haGTBS+abF0=
+		fNF8CyMaZVb6IPOaZiLvhlUw7Xw=
 		</data>
 		<key>ViewController2.nib</key>
 		<data>
-		vcV1WFSw7wXyuRAB2QI/VGhvtNM=
+		KBsrVaSamBfwpT4W96sFLNZ4/Xk=
 		</data>
 		<key>ViewController3.nib</key>
 		<data>
-		9WbRvLBbtxL7MPIq1rYbY7TLeNE=
+		GcW7JX9cJKJQcdDUXUhKY5yF81k=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		bnuaVG11iArEHn30Iw546jlWAa4=
+		mgtTWWLDxnTMS3jB6rrMLIP77DQ=
+		</data>
+		<key>logo2.jpg</key>
+		<data>
+		k2kv/BG3A0cMf5bC4+6qpqKWZ+Y=
 		</data>
 	</dict>
 	<key>rules</key>

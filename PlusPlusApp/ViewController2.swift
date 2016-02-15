@@ -34,6 +34,8 @@ class ViewController2: UIViewController, UIImagePickerControllerDelegate, UINavi
         previewLayer?.frame = cameraView.bounds
     }
     
+    
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -63,6 +65,7 @@ class ViewController2: UIViewController, UIImagePickerControllerDelegate, UINavi
             }
             
         }
+
     
         
     }
@@ -70,50 +73,21 @@ class ViewController2: UIViewController, UIImagePickerControllerDelegate, UINavi
     @IBOutlet var tempImageView: UIImageView!
     
     func didPressTakePhoto(){
-        if let videoConnection = stillImageOutput!.connectionWithMediaType(AVMediaTypeVideo){
+        if let videoConnection = stillImageOutput?.connectionWithMediaType(AVMediaTypeVideo){
+            
             videoConnection.videoOrientation = AVCaptureVideoOrientation.Portrait
-            stillImageOutput?.captureStillImageAsynchronouslyFromConnection(videoConnection, completionHandler: {
-            (sampleBuffer, error) in
-                
-                if sampleBuffer != nil {
-                    
-                    
+            stillImageOutput?.captureStillImageAsynchronouslyFromConnection(videoConnection, completionHandler: {(sampleBuffer, error) in
+            
+                if sampleBuffer != nil{
                     var imageData = AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation(sampleBuffer)
-                    var dataProvider  = CGDataProviderCreateWithCFData(imageData)
-                    let cgImageRef = CGImageCreateWithJPEGDataProvider(dataProvider, nil, true, .RenderingIntentDefault)
-                    
-                    var image = UIImage(CGImage: cgImageRef!, scale: 1.0, orientation: UIImageOrientation.Right)
-                    
-                    self.tempImageView.image = image
-                    self.tempImageView.hidden = false
-                    
+                    var dataProvider = CGDataProviderCreateWithCFData(imageData)
+                    var cgImageRef = CGImageCreateWithJPEGDataProvider(dataProvider, nil, true, .RenderingIntentDefault)
                 }
-                
-                
+            
             })
         }
-        
-        
     }
-    
-    
-    var didTakePhoto = Bool()
-    
-    func didPressTakeAnother(){
-        if didTakePhoto == true{
-            tempImageView.hidden = true
-            didTakePhoto = false
-            
-        }
-        else{
-            captureSession?.startRunning()
-            didTakePhoto = true
-            didPressTakePhoto()
-            
-        }
-        
-    }
-    
+
     
     
     
