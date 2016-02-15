@@ -19,29 +19,28 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8W-WC-eIG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W44-VC-SK3">
-                                        <rect key="frame" x="320" y="619" width="30" height="30"/>
-                                        <state key="normal" title="Map"/>
-                                        <connections>
-                                            <segue destination="tEl-e5-EPE" kind="show" id="6ol-1X-LnN"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="W44-VC-SK3" firstAttribute="top" secondItem="C8W-WC-eIG" secondAttribute="top" constant="619" id="Luj-Sc-u4w"/>
-                                    <constraint firstAttribute="bottom" secondItem="W44-VC-SK3" secondAttribute="bottom" constant="18" id="ccK-gl-ecJ"/>
-                                    <constraint firstItem="W44-VC-SK3" firstAttribute="leading" secondItem="C8W-WC-eIG" secondAttribute="leading" constant="320" id="frH-P2-m5U"/>
-                                    <constraint firstAttribute="trailing" secondItem="W44-VC-SK3" secondAttribute="trailing" constant="25" id="iuj-EM-mhB"/>
-                                </constraints>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W44-VC-SK3">
+                                <rect key="frame" x="288" y="610" width="67" height="37"/>
+                                <color key="backgroundColor" red="1" green="0.72295105459999998" blue="0.32441377640000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Map">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tEl-e5-EPE" kind="show" id="6ol-1X-LnN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="C8W-WC-eIG" firstAttribute="leading" secondItem="kT8-8O-hBH" secondAttribute="leading" id="1Pc-tE-fF3"/>
                             <constraint firstItem="C8W-WC-eIG" firstAttribute="bottom" secondItem="LeE-2a-smF" secondAttribute="top" id="BVg-S7-efz"/>
+                            <constraint firstItem="LeE-2a-smF" firstAttribute="top" secondItem="W44-VC-SK3" secondAttribute="bottom" constant="20" id="cme-3V-Gox"/>
                             <constraint firstItem="C8W-WC-eIG" firstAttribute="top" secondItem="kT8-8O-hBH" secondAttribute="top" id="dvF-ki-kCZ"/>
                             <constraint firstAttribute="trailing" secondItem="C8W-WC-eIG" secondAttribute="trailing" id="g06-Ji-YX4"/>
+                            <constraint firstItem="W44-VC-SK3" firstAttribute="leading" secondItem="kT8-8O-hBH" secondAttribute="leading" constant="288" id="gCP-Z9-Oj9"/>
+                            <constraint firstItem="W44-VC-SK3" firstAttribute="top" secondItem="nEY-Nz-e3Y" secondAttribute="bottom" constant="590" id="oMY-vk-vfi"/>
+                            <constraint firstAttribute="trailing" secondItem="W44-VC-SK3" secondAttribute="trailing" constant="20" id="sBC-05-KpZ"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -64,7 +63,25 @@
                     <view key="view" contentMode="scaleToFill" id="ir2-cv-L5h">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.2413398135" green="1" blue="0.72777806440000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wX5-bz-fEU">
+                                <rect key="frame" x="20" y="28" width="64" height="36"/>
+                                <color key="backgroundColor" red="1" green="0.72295105459999998" blue="0.32441377640000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="MRN-4l-ryM" kind="show" id="dbP-hv-6SU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93689376120000001" green="0.78209066390000004" blue="0.75567448140000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wX5-bz-fEU" firstAttribute="top" secondItem="hKj-9h-FWe" secondAttribute="bottom" constant="8" id="biV-9d-vgN"/>
+                            <constraint firstItem="wX5-bz-fEU" firstAttribute="leading" secondItem="ir2-cv-L5h" secondAttribute="leading" constant="20" id="k9A-b5-Luu"/>
+                            <constraint firstAttribute="trailing" secondItem="wX5-bz-fEU" secondAttribute="trailing" constant="291" id="tIb-Ao-VsZ"/>
+                            <constraint firstItem="iWy-04-hgM" firstAttribute="top" secondItem="wX5-bz-fEU" secondAttribute="bottom" constant="603" id="zxD-Qa-kmO"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
