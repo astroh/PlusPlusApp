@@ -22,17 +22,17 @@ class ViewController2: UIViewController, UIImagePickerControllerDelegate, UINavi
         
         // Do any additional setup after loading the view
         
-    }
+    } // end viewDidLoad
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
+    } // end didReceiveMemoryWarning
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         previewLayer?.frame = cameraView.bounds
-    }
+    } // end viewDidAppear
     
     
     
@@ -62,13 +62,13 @@ class ViewController2: UIViewController, UIImagePickerControllerDelegate, UINavi
                 
                 cameraView.layer.addSublayer(previewLayer!)
                 captureSession?.startRunning()
-            }
+            } // end if captureSessionOutput true
             
-        }
+        } // end if captureSessionInput true
 
     
         
-    }
+     } // end viewWillAppear
     
     @IBOutlet var tempImageView: UIImageView!
     
@@ -82,18 +82,39 @@ class ViewController2: UIViewController, UIImagePickerControllerDelegate, UINavi
                     var imageData = AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation(sampleBuffer)
                     var dataProvider = CGDataProviderCreateWithCFData(imageData)
                     var cgImageRef = CGImageCreateWithJPEGDataProvider(dataProvider, nil, true, .RenderingIntentDefault)
+                    
+                    var image = UIImage(CGImage: cgImageRef!, scale: 1.0, orientation: UIImageOrientation.Right)
+                    
+                    self.tempImageView.image = image
+                    self.tempImageView.hidden = false
                 }
             
             })
-        }
+        } // end let videoConnection
+    
+    } // end didPressTakePhoto
+    
+    var didTakePhoto = Bool()
+    func didPressTakeAnother(){
+        
+        if didPressTakePhoto() == true{
+            self.tempImageView.hidden = true
+            didTakePhoto = false
+        } // end if
+            
+        else{
+            captureSession!.startRunning()
+            didTakePhoto = true
+            didPressTakePhoto()
+        } // end else
+        
+    } // end didPressTakeAnother
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        didPressTakeAnother()
     }
-
     
     
     
     
-    
-    
-    
-    
-}
+} // end ViewController2

@@ -1,9 +1,9 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "a1d79ba8decc79ebe52448fb0787e33e"
-build_time: [508865988, 281353000]
+build_time: [508868850, 618504000]
 inputs:
-  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/ViewController.swift": [508865987, 0]
-  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/ViewController2.swift": [508862205, 0]
-  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/ViewController3.swift": [508859740, 0]
-  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/ViewController1.swift": [508562771, 0]
   "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/AppDelegate.swift": [508859324, 0]
+  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/ViewController1.swift": [508562771, 0]
+  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/ViewController3.swift": [508859740, 0]
+  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/ViewController2.swift": !private [508868847, 0]
+  "/Users/2018isabellar/Desktop/izzy/development/PlusPlusApp/PlusPlusApp/ViewController.swift": [508865987, 0]

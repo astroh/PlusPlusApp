@@ -214,7 +214,7 @@
 				TargetAttributes = {
 					4902F0F71C720EBC00252C87 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 9C66D39MMK;
+						DevelopmentTeam = RG5Y8M57Y4;
 					};
 					4902F10B1C720EBC00252C87 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -429,7 +429,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PlusPlusApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = teamplusplus.PlusPlusApp;
+				PRODUCT_BUNDLE_IDENTIFIER = inr.PlusPlusApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -441,7 +441,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PlusPlusApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = teamplusplus.PlusPlusApp;
+				PRODUCT_BUNDLE_IDENTIFIER = inr.PlusPlusApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
