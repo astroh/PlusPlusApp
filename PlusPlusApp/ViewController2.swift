@@ -97,7 +97,7 @@ class ViewController2: UIViewController, UIImagePickerControllerDelegate, UINavi
 //    var didTakePhoto = Bool()
 //    func didPressTakeAnother(){
 //        
-//        if didPressTakePhoto() == true{
+//        if didTakePhoto == true {
 //            self.tempImageView.hidden = true
 //            didTakePhoto = false
 //        } // end if
