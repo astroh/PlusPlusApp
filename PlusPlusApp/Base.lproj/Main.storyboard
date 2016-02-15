@@ -20,27 +20,13 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8W-WC-eIG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W44-VC-SK3">
-                                <rect key="frame" x="288" y="610" width="67" height="37"/>
-                                <color key="backgroundColor" red="1" green="0.72295105459999998" blue="0.32441377640000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Map">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="tEl-e5-EPE" kind="show" id="6ol-1X-LnN"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="C8W-WC-eIG" firstAttribute="leading" secondItem="kT8-8O-hBH" secondAttribute="leading" id="1Pc-tE-fF3"/>
                             <constraint firstItem="C8W-WC-eIG" firstAttribute="bottom" secondItem="LeE-2a-smF" secondAttribute="top" id="BVg-S7-efz"/>
-                            <constraint firstItem="LeE-2a-smF" firstAttribute="top" secondItem="W44-VC-SK3" secondAttribute="bottom" constant="20" id="cme-3V-Gox"/>
                             <constraint firstItem="C8W-WC-eIG" firstAttribute="top" secondItem="kT8-8O-hBH" secondAttribute="top" id="dvF-ki-kCZ"/>
                             <constraint firstAttribute="trailing" secondItem="C8W-WC-eIG" secondAttribute="trailing" id="g06-Ji-YX4"/>
-                            <constraint firstItem="W44-VC-SK3" firstAttribute="leading" secondItem="kT8-8O-hBH" secondAttribute="leading" constant="288" id="gCP-Z9-Oj9"/>
-                            <constraint firstItem="W44-VC-SK3" firstAttribute="top" secondItem="nEY-Nz-e3Y" secondAttribute="bottom" constant="590" id="oMY-vk-vfi"/>
-                            <constraint firstAttribute="trailing" secondItem="W44-VC-SK3" secondAttribute="trailing" constant="20" id="sBC-05-KpZ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rHz-vw-Wsz"/>

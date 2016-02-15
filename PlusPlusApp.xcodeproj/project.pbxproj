@@ -20,6 +20,8 @@
 		4902F1341C720F1D00252C87 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4902F12E1C720F1D00252C87 /* ViewController2.swift */; };
 		4902F17E1C723B6900252C87 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4902F17D1C723B6900252C87 /* MapViewController.swift */; };
 		4902F1861C72742D00252C87 /* logo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4902F1851C72742D00252C87 /* logo1.jpg */; };
+		4902F1891C72849300252C87 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4902F1871C72849200252C87 /* ViewController3.swift */; };
+		4902F18A1C72849300252C87 /* ViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4902F1881C72849200252C87 /* ViewController3.xib */; };
 		A0318DBBDB63536F4EBFE48F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE3DE3C51BFF57BF9B831BF /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,8 @@
 		4902F12E1C720F1D00252C87 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		4902F17D1C723B6900252C87 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		4902F1851C72742D00252C87 /* logo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo1.jpg; sourceTree = SOURCE_ROOT; };
+		4902F1871C72849200252C87 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		4902F1881C72849200252C87 /* ViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController3.xib; sourceTree = "<group>"; };
 		70CE40E71DAEE6CAF3063EA7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BAE3DE3C51BFF57BF9B831BF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE37706117054B31B4E301D2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 				4902F12D1C720F1D00252C87 /* ViewController1.swift */,
 				4902F12A1C720F1D00252C87 /* ViewController2.xib */,
 				4902F12E1C720F1D00252C87 /* ViewController2.swift */,
+				4902F1881C72849200252C87 /* ViewController3.xib */,
+				4902F1871C72849200252C87 /* ViewController3.swift */,
 				4902F17D1C723B6900252C87 /* MapViewController.swift */,
 				4902F1041C720EBC00252C87 /* LaunchScreen.storyboard */,
 				4902F1851C72742D00252C87 /* logo1.jpg */,
@@ -280,6 +286,7 @@
 				4902F1061C720EBC00252C87 /* LaunchScreen.storyboard in Resources */,
 				4902F1031C720EBC00252C87 /* Assets.xcassets in Resources */,
 				4902F1011C720EBC00252C87 /* Main.storyboard in Resources */,
+				4902F18A1C72849300252C87 /* ViewController3.xib in Resources */,
 				4902F1861C72742D00252C87 /* logo1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +362,7 @@
 			files = (
 				4902F1341C720F1D00252C87 /* ViewController2.swift in Sources */,
 				4902F1331C720F1D00252C87 /* ViewController1.swift in Sources */,
+				4902F1891C72849300252C87 /* ViewController3.swift in Sources */,
 				4902F0FE1C720EBC00252C87 /* ViewController.swift in Sources */,
 				4902F17E1C723B6900252C87 /* MapViewController.swift in Sources */,
 				4902F0FC1C720EBC00252C87 /* AppDelegate.swift in Sources */,
