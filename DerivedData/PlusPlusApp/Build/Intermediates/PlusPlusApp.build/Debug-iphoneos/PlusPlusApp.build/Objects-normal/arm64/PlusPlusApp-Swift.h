@@ -129,15 +129,14 @@ SWIFT_CLASS("_TtC11PlusPlusApp15ViewController1")
 @end
 
 @class UIView;
-@class UIImageView;
 @class AVCaptureSession;
 @class AVCaptureStillImageOutput;
 @class AVCaptureVideoPreviewLayer;
+@class UIImageView;
 
 SWIFT_CLASS("_TtC11PlusPlusApp15ViewController2")
 @interface ViewController2 : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 @property (nonatomic, strong) IBOutlet UIView * __null_unspecified cameraView;
-@property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified imagePreviewLayer;
 @property (nonatomic, strong) AVCaptureSession * __nullable captureSession;
 @property (nonatomic, strong) AVCaptureStillImageOutput * __nullable stillImageOutput;
 @property (nonatomic, strong) AVCaptureVideoPreviewLayer * __nullable previewLayer;
@@ -145,15 +144,8 @@ SWIFT_CLASS("_TtC11PlusPlusApp15ViewController2")
 - (void)didReceiveMemoryWarning;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillAppear:(BOOL)animated;
-- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC11PlusPlusApp15ViewController3")
-@interface ViewController3 : UIViewController
-- (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
+@property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified tempImageView;
+- (void)didPressTakePhoto;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

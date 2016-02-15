@@ -19,18 +19,29 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8W-WC-eIG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W44-VC-SK3">
+                                        <rect key="frame" x="320" y="619" width="30" height="30"/>
+                                        <state key="normal" title="Map"/>
+                                        <connections>
+                                            <segue destination="tEl-e5-EPE" kind="show" id="6ol-1X-LnN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="W44-VC-SK3" firstAttribute="top" secondItem="C8W-WC-eIG" secondAttribute="top" constant="619" id="Luj-Sc-u4w"/>
+                                    <constraint firstAttribute="bottom" secondItem="W44-VC-SK3" secondAttribute="bottom" constant="18" id="ccK-gl-ecJ"/>
+                                    <constraint firstItem="W44-VC-SK3" firstAttribute="leading" secondItem="C8W-WC-eIG" secondAttribute="leading" constant="320" id="frH-P2-m5U"/>
+                                    <constraint firstAttribute="trailing" secondItem="W44-VC-SK3" secondAttribute="trailing" constant="25" id="iuj-EM-mhB"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="C8W-WC-eIG" firstAttribute="centerX" secondItem="kT8-8O-hBH" secondAttribute="centerX" id="22p-an-KFp"/>
-                            <constraint firstItem="C8W-WC-eIG" firstAttribute="top" secondItem="kT8-8O-hBH" secondAttribute="top" id="4kZ-qa-BRH"/>
-                            <constraint firstItem="LeE-2a-smF" firstAttribute="top" secondItem="C8W-WC-eIG" secondAttribute="bottom" id="J2d-gD-owp"/>
-                            <constraint firstItem="C8W-WC-eIG" firstAttribute="leading" secondItem="kT8-8O-hBH" secondAttribute="leading" id="Ple-Jo-dDu"/>
-                            <constraint firstItem="C8W-WC-eIG" firstAttribute="top" secondItem="nEY-Nz-e3Y" secondAttribute="bottom" constant="-20" id="Y52-8U-T0R"/>
-                            <constraint firstItem="LeE-2a-smF" firstAttribute="top" secondItem="C8W-WC-eIG" secondAttribute="bottom" id="cGg-Jx-86o"/>
-                            <constraint firstAttribute="trailing" secondItem="C8W-WC-eIG" secondAttribute="trailing" id="l6b-Q6-jzD"/>
-                            <constraint firstItem="C8W-WC-eIG" firstAttribute="centerY" secondItem="kT8-8O-hBH" secondAttribute="centerY" id="mw2-bW-GIy"/>
+                            <constraint firstItem="C8W-WC-eIG" firstAttribute="leading" secondItem="kT8-8O-hBH" secondAttribute="leading" id="1Pc-tE-fF3"/>
+                            <constraint firstItem="C8W-WC-eIG" firstAttribute="bottom" secondItem="LeE-2a-smF" secondAttribute="top" id="BVg-S7-efz"/>
+                            <constraint firstItem="C8W-WC-eIG" firstAttribute="top" secondItem="kT8-8O-hBH" secondAttribute="top" id="dvF-ki-kCZ"/>
+                            <constraint firstAttribute="trailing" secondItem="C8W-WC-eIG" secondAttribute="trailing" id="g06-Ji-YX4"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -41,6 +52,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zY9-Xd-Y0t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1233.5" y="598.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WtO-ca-wjg">
+            <objects>
+                <viewController id="tEl-e5-EPE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hKj-9h-FWe"/>
+                        <viewControllerLayoutGuide type="bottom" id="iWy-04-hgM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ir2-cv-L5h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.2413398135" green="1" blue="0.72777806440000004" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2xb-5C-ZWJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1760.5" y="598.5"/>
         </scene>
     </scenes>
 </document>

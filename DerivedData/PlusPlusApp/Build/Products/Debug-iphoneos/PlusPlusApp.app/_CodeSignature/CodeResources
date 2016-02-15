@@ -59,7 +59,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pcdf95UfuTMJKQF825EawrtImSg=
+			Epj9hJYNh+kTo3FYH9Xcb2bsIyk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -68,7 +68,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sniwcjVKxFHrDPckiE8GqbN0UCc=
+			tGgyctYm3cVE8U4t+99z1XXWWqY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -77,62 +77,80 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PyWRhJd/UR3jsLuwqMbFM1u07Uc=
+			em2Q7iCB7Dpn3w8JqKZXF05qOTg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-tEl-e5-EPE.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AvA5sl+6wLdpWmwZWEHeZXZ3yYw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/tEl-e5-EPE-view-ir2-cv-L5h.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MjvN1091iJRfgRvWRtTV/FJOEng=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/libswiftAVFoundation.dylib</key>
 		<data>
-		PF25BE5XSA+LGidyYR14L20bxW0=
+		RY3RZWiYoRtnAg7B1hemwmaGiJM=
 		</data>
 		<key>Frameworks/libswiftContacts.dylib</key>
 		<data>
-		/x9QYOMHimArxWQUlx2Eq5GmoZc=
+		G10GXMLvgf+pKb8coyPvOaWwV34=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		KwVhU0b/N+Jv5iKeZnxVGWFtwak=
+		0tn0DRNdtZD7BY2jggUJ3LJ0jyY=
 		</data>
 		<key>Frameworks/libswiftCoreAudio.dylib</key>
 		<data>
-		WtA1Q9lRmcG4ROniHvL35emuj/Y=
+		rnha12/qt+im3BhWy2crbMB8oLI=
 		</data>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		QSAaKr8dKPYo50Oim5tOtyR1jwc=
+		fAIxl4sxybwPazntOZE3aXSnwMI=
 		</data>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
-		N6H45esIO8XOs/ul8tqhktj8tcA=
+		jao6KRGns4JAwFTibGzeXP9c4tM=
 		</data>
 		<key>Frameworks/libswiftCoreMedia.dylib</key>
 		<data>
-		A5uW6uAe0LL91s7wxB0WeZ1QCtE=
+		hR6T5KOAXHbYYlFWVLPw8QaRzN0=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		MzXdgUwq6xZZr5LjjEPbNtZ0pSQ=
+		WGI/vrGKZgpUET+h8KVX86Cnfpg=
 		</data>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		eMR70V42Mx6tm7hlVbuA0sPriYc=
+		Y7B0XtnGrBLhJxy+BdCTSGEnRCQ=
 		</data>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		ItUPyCYnvCq33WiCXzVwoRwOM6k=
+		jqTirEBo3gFWgPsK7EcjEXY1/ck=
 		</data>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		plqOx+o4FwqhrpDeT2P4NA2/xLI=
+		DvxR/P6gwDQJU3+K5uJuZ/bKR7k=
 		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		8fRwu/pAd8TqNyNh5gjvcEafMNQ=
+		Imt0Vr4V+b+KlPiBplDniAqwoQs=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iGKKlGkmMHe3qZ5t1EQL5iwID+U=
+		KGnkFe2qpX+E26pkFYHvkZtlKzg=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -144,15 +162,11 @@
 		</data>
 		<key>ViewController2.nib</key>
 		<data>
-		KBsrVaSamBfwpT4W96sFLNZ4/Xk=
-		</data>
-		<key>ViewController3.nib</key>
-		<data>
-		GcW7JX9cJKJQcdDUXUhKY5yF81k=
+		lJwOtvbJtA+QLbOBElyFtEjHvhc=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		mgtTWWLDxnTMS3jB6rrMLIP77DQ=
+		8bnl3LUGuxjiX34sVsdMqAphgKg=
 		</data>
 		<key>logo2.jpg</key>
 		<data>
@@ -216,7 +230,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pcdf95UfuTMJKQF825EawrtImSg=
+			Epj9hJYNh+kTo3FYH9Xcb2bsIyk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -225,7 +239,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sniwcjVKxFHrDPckiE8GqbN0UCc=
+			tGgyctYm3cVE8U4t+99z1XXWWqY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -234,58 +248,76 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PyWRhJd/UR3jsLuwqMbFM1u07Uc=
+			em2Q7iCB7Dpn3w8JqKZXF05qOTg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-tEl-e5-EPE.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AvA5sl+6wLdpWmwZWEHeZXZ3yYw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/tEl-e5-EPE-view-ir2-cv-L5h.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MjvN1091iJRfgRvWRtTV/FJOEng=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/libswiftAVFoundation.dylib</key>
 		<data>
-		PF25BE5XSA+LGidyYR14L20bxW0=
+		RY3RZWiYoRtnAg7B1hemwmaGiJM=
 		</data>
 		<key>Frameworks/libswiftContacts.dylib</key>
 		<data>
-		/x9QYOMHimArxWQUlx2Eq5GmoZc=
+		G10GXMLvgf+pKb8coyPvOaWwV34=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		KwVhU0b/N+Jv5iKeZnxVGWFtwak=
+		0tn0DRNdtZD7BY2jggUJ3LJ0jyY=
 		</data>
 		<key>Frameworks/libswiftCoreAudio.dylib</key>
 		<data>
-		WtA1Q9lRmcG4ROniHvL35emuj/Y=
+		rnha12/qt+im3BhWy2crbMB8oLI=
 		</data>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		QSAaKr8dKPYo50Oim5tOtyR1jwc=
+		fAIxl4sxybwPazntOZE3aXSnwMI=
 		</data>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
-		N6H45esIO8XOs/ul8tqhktj8tcA=
+		jao6KRGns4JAwFTibGzeXP9c4tM=
 		</data>
 		<key>Frameworks/libswiftCoreMedia.dylib</key>
 		<data>
-		A5uW6uAe0LL91s7wxB0WeZ1QCtE=
+		hR6T5KOAXHbYYlFWVLPw8QaRzN0=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		MzXdgUwq6xZZr5LjjEPbNtZ0pSQ=
+		WGI/vrGKZgpUET+h8KVX86Cnfpg=
 		</data>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		eMR70V42Mx6tm7hlVbuA0sPriYc=
+		Y7B0XtnGrBLhJxy+BdCTSGEnRCQ=
 		</data>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		ItUPyCYnvCq33WiCXzVwoRwOM6k=
+		jqTirEBo3gFWgPsK7EcjEXY1/ck=
 		</data>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		plqOx+o4FwqhrpDeT2P4NA2/xLI=
+		DvxR/P6gwDQJU3+K5uJuZ/bKR7k=
 		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		8fRwu/pAd8TqNyNh5gjvcEafMNQ=
+		Imt0Vr4V+b+KlPiBplDniAqwoQs=
 		</data>
 		<key>ViewController1.nib</key>
 		<data>
@@ -293,15 +325,11 @@
 		</data>
 		<key>ViewController2.nib</key>
 		<data>
-		KBsrVaSamBfwpT4W96sFLNZ4/Xk=
-		</data>
-		<key>ViewController3.nib</key>
-		<data>
-		GcW7JX9cJKJQcdDUXUhKY5yF81k=
+		lJwOtvbJtA+QLbOBElyFtEjHvhc=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		mgtTWWLDxnTMS3jB6rrMLIP77DQ=
+		8bnl3LUGuxjiX34sVsdMqAphgKg=
 		</data>
 		<key>logo2.jpg</key>
 		<data>

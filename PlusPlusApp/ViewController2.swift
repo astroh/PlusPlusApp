@@ -94,25 +94,25 @@ class ViewController2: UIViewController, UIImagePickerControllerDelegate, UINavi
     
     } // end didPressTakePhoto
     
-    var didTakePhoto = Bool()
-    func didPressTakeAnother(){
-        
-        if didPressTakePhoto() == true{
-            self.tempImageView.hidden = true
-            didTakePhoto = false
-        } // end if
-            
-        else{
-            captureSession!.startRunning()
-            didTakePhoto = true
-            didPressTakePhoto()
-        } // end else
-        
-    } // end didPressTakeAnother
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        didPressTakeAnother()
-    }
+//    var didTakePhoto = Bool()
+//    func didPressTakeAnother(){
+//        
+//        if didPressTakePhoto() == true{
+//            self.tempImageView.hidden = true
+//            didTakePhoto = false
+//        } // end if
+//            
+//        else{
+//            captureSession!.startRunning()
+//            didTakePhoto = true
+//            didPressTakePhoto()
+//        } // end else
+//        
+//    } // end didPressTakeAnother
+//    
+//    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+//        didPressTakeAnother()
+//    }
     
     
     

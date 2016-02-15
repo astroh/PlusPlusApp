@@ -33,16 +33,16 @@ class ViewController: UIViewController{
         vc2.didMoveToParentViewController(self)
         
         
-        let vc3 = ViewController3(nibName: "ViewController3", bundle: nil)
-        var frame3 = vc3.view.frame
-        frame3.origin.x = self.view.frame.size.width*2
-        vc3.view.frame = frame3
+//        let vc3 = ViewController3(nibName: "ViewController3", bundle: nil)
+//        var frame3 = vc3.view.frame
+//        frame3.origin.x = self.view.frame.size.width*2
+//        vc3.view.frame = frame3
         
-        self.addChildViewController(vc3)
-        self.scrollView.addSubview(vc3.view)
-        vc3.didMoveToParentViewController(self)
+//        self.addChildViewController(vc3)
+//        self.scrollView.addSubview(vc3.view)
+//        vc3.didMoveToParentViewController(self)
         
-        self.scrollView.contentSize = CGSizeMake(self.view.frame.size.width * 3, self.view.frame.size.height)
+        self.scrollView.contentSize = CGSizeMake(self.view.frame.size.width * 2, self.view.frame.size.height)
     }
     
 
