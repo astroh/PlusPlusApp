@@ -76,7 +76,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="MRN-4l-ryM" kind="show" id="cd6-eb-6wm"/>
+                                    <segue destination="MRN-4l-ryM" kind="modal" id="PzX-5W-JTM"/>
                                 </connections>
                             </button>
                         </subviews>

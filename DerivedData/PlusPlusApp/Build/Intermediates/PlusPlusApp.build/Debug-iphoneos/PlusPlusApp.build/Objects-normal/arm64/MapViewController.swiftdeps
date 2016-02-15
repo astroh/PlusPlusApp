@@ -10,15 +10,15 @@ provides-dynamic-lookup:
 - "mapView"
 - "didReceiveMemoryWarning"
 depends-top-level:
+- !private "StringLiteralType"
 - "MapViewController"
 - !private "GMSMarker"
-- !private "StringLiteralType"
+- "UIViewController"
+- !private "CLLocationCoordinate2DMake"
 - "GMSMapView"
 - !private "BooleanLiteralType"
-- !private "GMSCameraPosition"
-- !private "CLLocationCoordinate2DMake"
-- "UIViewController"
 - !private "CGRectZero"
+- !private "GMSCameraPosition"
 depends-member:
 - !private ["PSs9AnyObject", "CGRectZero"]
 - !private ["PSs9AnyObject", "CLLocationCoordinate2DMake"]

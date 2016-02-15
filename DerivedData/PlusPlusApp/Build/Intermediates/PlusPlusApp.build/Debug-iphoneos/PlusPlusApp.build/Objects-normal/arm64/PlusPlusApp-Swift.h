@@ -120,18 +120,6 @@ SWIFT_CLASS("_TtC11PlusPlusApp17MapViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImage;
-@class UIImageView;
-
-SWIFT_CLASS("_TtC11PlusPlusApp22PreviewViewController2")
-@interface PreviewViewController2 : UIViewController
-@property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified imageView;
-@property (nonatomic, strong) UIImage * __null_unspecified image;
-- (nonnull instancetype)initWithImage:(UIImage * __nonnull)image OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)viewDidLoad;
-@end
-
 @class UIScrollView;
 
 SWIFT_CLASS("_TtC11PlusPlusApp14ViewController")
@@ -155,6 +143,7 @@ SWIFT_CLASS("_TtC11PlusPlusApp15ViewController1")
 @class AVCaptureSession;
 @class AVCaptureStillImageOutput;
 @class AVCaptureVideoPreviewLayer;
+@class UIImageView;
 
 SWIFT_CLASS("_TtC11PlusPlusApp15ViewController2")
 @interface ViewController2 : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
