@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -10,23 +11,25 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0X6-Oi-K5S"/>
-                        <viewControllerLayoutGuide type="bottom" id="tfo-Kc-hcf"/>
+                        <viewControllerLayoutGuide type="top" id="de0-eq-jjG"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZFe-T0-6Ug"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="43R-KQ-ZuP">
+                    <view key="view" contentMode="scaleToFill" id="tLE-jw-8WR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VQN-IQ-HDn">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logo1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="n2J-I4-ao2">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.72295105459999998" blue="0.32441377640000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="VQN-IQ-HDn" firstAttribute="leading" secondItem="43R-KQ-ZuP" secondAttribute="leading" id="6JS-i3-f7O"/>
-                            <constraint firstItem="VQN-IQ-HDn" firstAttribute="bottom" secondItem="tfo-Kc-hcf" secondAttribute="top" id="O92-bC-UcM"/>
-                            <constraint firstItem="VQN-IQ-HDn" firstAttribute="top" secondItem="43R-KQ-ZuP" secondAttribute="top" id="Qg2-52-PKv"/>
-                            <constraint firstAttribute="trailing" secondItem="VQN-IQ-HDn" secondAttribute="trailing" id="XLK-6w-hfb"/>
+                            <constraint firstItem="n2J-I4-ao2" firstAttribute="centerY" secondItem="tLE-jw-8WR" secondAttribute="centerY" id="2lL-On-iR9"/>
+                            <constraint firstItem="ZFe-T0-6Ug" firstAttribute="top" secondItem="n2J-I4-ao2" secondAttribute="bottom" id="79F-DO-cAI"/>
+                            <constraint firstItem="n2J-I4-ao2" firstAttribute="leading" secondItem="tLE-jw-8WR" secondAttribute="leadingMargin" constant="-20" id="9SZ-qo-5GC"/>
+                            <constraint firstItem="n2J-I4-ao2" firstAttribute="top" secondItem="de0-eq-jjG" secondAttribute="bottom" constant="-20" id="KQ0-HG-Ggk"/>
+                            <constraint firstItem="n2J-I4-ao2" firstAttribute="centerX" secondItem="tLE-jw-8WR" secondAttribute="centerX" id="OuU-u5-xnk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="n2J-I4-ao2" secondAttribute="trailing" constant="-20" id="oC8-Rg-1M9"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>

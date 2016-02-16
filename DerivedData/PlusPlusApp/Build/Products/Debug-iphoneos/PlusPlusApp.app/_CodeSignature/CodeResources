@@ -28,11 +28,11 @@
 		<data>
 		xi/AbQh0y6CBL5QYpgF4hlOtRdM=
 		</data>
-		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-43R-KQ-ZuP.nib</key>
+		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-tLE-jw-8WR.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OgcNzo2DmWE/2xd1koYVDeRaWUo=
+			EIeq9hO5S+G4BlFzgV9rcUFMbAM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cJd3K2kMPWUBNZlSlJFVckJVpsU=
+			B+GRoGVgl5EWJOamvnPXcpurgzo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -923,6 +923,18 @@
 		<data>
 		iGKKlGkmMHe3qZ5t1EQL5iwID+U=
 		</data>
+		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<data>
+		C9H9wgbAoF/ixQSt+AonwPl7u94=
+		</data>
+		<key>LaunchScreen.storyboardc/Info.plist</key>
+		<data>
+		n2t8gsDpfE6XkhG31p7IQJRxTxU=
+		</data>
+		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<data>
+		EGKlAL2+8Q+hbpj6CD9ucqadALY=
+		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
@@ -933,17 +945,17 @@
 		</data>
 		<key>ViewController2.nib</key>
 		<data>
-		kd2BfZpEN4kARwoYjeCLaWwnLfk=
+		WJHQ+yN0kBeIPM5J+Rnk9tG54cw=
 		</data>
 		<key>ViewController3.nib</key>
 		<data>
-		TSKndN2LM2hQ3+XZCoybtEx8ik0=
+		qakEZOBPExNY5JRtiqqiVNOwLPw=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		mgtTWWLDxnTMS3jB6rrMLIP77DQ=
 		</data>
-		<key>logo1.jpg</key>
+		<key>logo.jpg</key>
 		<data>
 		k2kv/BG3A0cMf5bC4+6qpqKWZ+Y=
 		</data>
@@ -974,11 +986,11 @@
 		<data>
 		xi/AbQh0y6CBL5QYpgF4hlOtRdM=
 		</data>
-		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-43R-KQ-ZuP.nib</key>
+		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-tLE-jw-8WR.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OgcNzo2DmWE/2xd1koYVDeRaWUo=
+			EIeq9hO5S+G4BlFzgV9rcUFMbAM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -996,7 +1008,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cJd3K2kMPWUBNZlSlJFVckJVpsU=
+			B+GRoGVgl5EWJOamvnPXcpurgzo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1865,23 +1877,35 @@
 		<data>
 		N4rOiSKOAdN8v5iDPH2WN6ovPeY=
 		</data>
+		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<data>
+		C9H9wgbAoF/ixQSt+AonwPl7u94=
+		</data>
+		<key>LaunchScreen.storyboardc/Info.plist</key>
+		<data>
+		n2t8gsDpfE6XkhG31p7IQJRxTxU=
+		</data>
+		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<data>
+		EGKlAL2+8Q+hbpj6CD9ucqadALY=
+		</data>
 		<key>ViewController1.nib</key>
 		<data>
 		GOvGMTI+udD0fZFL/lWV7JagykM=
 		</data>
 		<key>ViewController2.nib</key>
 		<data>
-		kd2BfZpEN4kARwoYjeCLaWwnLfk=
+		WJHQ+yN0kBeIPM5J+Rnk9tG54cw=
 		</data>
 		<key>ViewController3.nib</key>
 		<data>
-		TSKndN2LM2hQ3+XZCoybtEx8ik0=
+		qakEZOBPExNY5JRtiqqiVNOwLPw=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		mgtTWWLDxnTMS3jB6rrMLIP77DQ=
 		</data>
-		<key>logo1.jpg</key>
+		<key>logo.jpg</key>
 		<data>
 		k2kv/BG3A0cMf5bC4+6qpqKWZ+Y=
 		</data>

@@ -6,13 +6,13 @@ provides-nominal:
 provides-member:
 - ["C11PlusPlusApp15ViewController3", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
 - "mapView"
 - "viewDidLoad"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- "GMSMapView"
-- "ViewController3"
 - "UIViewController"
+- "ViewController3"
+- "GMSMapView"
 depends-member:
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - ["PSs9AnyObject", "init"]

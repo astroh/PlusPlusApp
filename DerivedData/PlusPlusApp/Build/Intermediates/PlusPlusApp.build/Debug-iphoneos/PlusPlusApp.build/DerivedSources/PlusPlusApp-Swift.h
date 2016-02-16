@@ -133,6 +133,8 @@ SWIFT_CLASS("_TtC11PlusPlusApp15ViewController1")
 @class AVCaptureStillImageOutput;
 @class AVCaptureVideoPreviewLayer;
 @class UIImageView;
+@class UITouch;
+@class UIEvent;
 
 SWIFT_CLASS("_TtC11PlusPlusApp15ViewController2")
 @interface ViewController2 : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
@@ -146,6 +148,9 @@ SWIFT_CLASS("_TtC11PlusPlusApp15ViewController2")
 - (void)viewWillAppear:(BOOL)animated;
 @property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified tempImageView;
 - (void)didPressTakePhoto;
+@property (nonatomic) BOOL didTakePhoto;
+- (void)didPressTakeAnother;
+- (void)touchesBegan:(NSSet<UITouch *> * __nonnull)touches withEvent:(UIEvent * __nullable)event;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

@@ -10,14 +10,14 @@ provides-dynamic-lookup:
 - "viewDidLoad"
 depends-top-level:
 - !private "ViewController3"
-- !private "ViewController1"
-- "ViewController"
-- "UIScrollView"
-- !private "*"
-- !private "ViewController2"
 - !private "CGSizeMake"
 - "UIViewController"
+- !private "*"
+- "UIScrollView"
+- !private "ViewController2"
+- !private "ViewController1"
 - !private "StringLiteralType"
+- "ViewController"
 depends-member:
 - !private ["PSs9AnyObject", "CGSizeMake"]
 - !private ["PSs9AnyObject", "ViewController1"]
