@@ -6,18 +6,18 @@ provides-nominal:
 provides-member:
 - ["C11PlusPlusApp14ViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "scrollView"
+- "viewDidLoad"
 depends-top-level:
 - !private "ViewController3"
-- "ViewController"
-- !private "ViewController2"
-- "UIViewController"
-- "UIScrollView"
 - !private "ViewController1"
+- "ViewController"
+- "UIScrollView"
 - !private "*"
-- !private "StringLiteralType"
+- !private "ViewController2"
 - !private "CGSizeMake"
+- "UIViewController"
+- !private "StringLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "CGSizeMake"]
 - !private ["PSs9AnyObject", "ViewController1"]

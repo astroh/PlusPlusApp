@@ -107,20 +107,9 @@ SWIFT_CLASS("_TtC11PlusPlusApp11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class GMSMapView;
+@class UIScrollView;
 @class NSBundle;
 @class NSCoder;
-
-SWIFT_CLASS("_TtC11PlusPlusApp17MapViewController")
-@interface MapViewController : UIViewController
-@property (nonatomic, strong) IBOutlet GMSMapView * __null_unspecified mapView;
-- (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
-- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UIScrollView;
 
 SWIFT_CLASS("_TtC11PlusPlusApp14ViewController")
 @interface ViewController : UIViewController
@@ -161,9 +150,11 @@ SWIFT_CLASS("_TtC11PlusPlusApp15ViewController2")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class GMSMapView;
 
 SWIFT_CLASS("_TtC11PlusPlusApp15ViewController3")
 @interface ViewController3 : UIViewController
+@property (nonatomic, strong) IBOutlet GMSMapView * __null_unspecified mapView;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
