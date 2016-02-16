@@ -32,7 +32,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EIeq9hO5S+G4BlFzgV9rcUFMbAM=
+			1fO06s1MVFaFI4HaGX+EMOWT0RA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B+GRoGVgl5EWJOamvnPXcpurgzo=
+			RR57K7KIET31WaE0NwiS4P/Ydkw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -921,19 +921,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iGKKlGkmMHe3qZ5t1EQL5iwID+U=
+		/mXIWQQLrbcWvQe8q1UUNxv2MWY=
 		</data>
-		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<key>LaunchScreen2.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		C9H9wgbAoF/ixQSt+AonwPl7u94=
+		mlKovRS6vjgNirGrOvLoyhlyvfY=
 		</data>
-		<key>LaunchScreen.storyboardc/Info.plist</key>
+		<key>LaunchScreen2.storyboardc/Info.plist</key>
 		<data>
 		n2t8gsDpfE6XkhG31p7IQJRxTxU=
 		</data>
-		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<key>LaunchScreen2.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		EGKlAL2+8Q+hbpj6CD9ucqadALY=
+		w0Z1Bc/s7hdgPssm4nBKbbFwHQ8=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -945,7 +945,7 @@
 		</data>
 		<key>ViewController2.nib</key>
 		<data>
-		WJHQ+yN0kBeIPM5J+Rnk9tG54cw=
+		Bcg2ovmSytpm3g+dTgJN5B1FxrM=
 		</data>
 		<key>ViewController3.nib</key>
 		<data>
@@ -990,7 +990,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EIeq9hO5S+G4BlFzgV9rcUFMbAM=
+			1fO06s1MVFaFI4HaGX+EMOWT0RA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1008,7 +1008,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B+GRoGVgl5EWJOamvnPXcpurgzo=
+			RR57K7KIET31WaE0NwiS4P/Ydkw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1877,17 +1877,17 @@
 		<data>
 		N4rOiSKOAdN8v5iDPH2WN6ovPeY=
 		</data>
-		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<key>LaunchScreen2.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		C9H9wgbAoF/ixQSt+AonwPl7u94=
+		mlKovRS6vjgNirGrOvLoyhlyvfY=
 		</data>
-		<key>LaunchScreen.storyboardc/Info.plist</key>
+		<key>LaunchScreen2.storyboardc/Info.plist</key>
 		<data>
 		n2t8gsDpfE6XkhG31p7IQJRxTxU=
 		</data>
-		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<key>LaunchScreen2.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		EGKlAL2+8Q+hbpj6CD9ucqadALY=
+		w0Z1Bc/s7hdgPssm4nBKbbFwHQ8=
 		</data>
 		<key>ViewController1.nib</key>
 		<data>
@@ -1895,7 +1895,7 @@
 		</data>
 		<key>ViewController2.nib</key>
 		<data>
-		WJHQ+yN0kBeIPM5J+Rnk9tG54cw=
+		Bcg2ovmSytpm3g+dTgJN5B1FxrM=
 		</data>
 		<key>ViewController3.nib</key>
 		<data>
