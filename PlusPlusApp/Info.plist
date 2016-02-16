@@ -22,6 +22,8 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>By accessing your location, you can look a photos</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen2</string>
 	<key>UIMainStoryboardFile</key>
